@@ -156,7 +156,7 @@ class _ScanImageState extends State<ScanImage> {
     } catch (e) {
       imageLabelChecking = false;
       imageFile = null;
-      imageLabel = "Error occurred while getting image Label";
+      imageLabel = "Error cannot identify image";
       setState(() {});
     }
   }
